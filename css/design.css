@@ -82,3 +82,70 @@
     left: 0;
     bottom: 0;
 }
+/* content css */
+#content 
+{
+    height: auto;
+    width: 700px;
+    position: absolute;
+    right: 11%;
+    top: calc(50% - 215px);
+
+}
+#content h2
+{
+    font-size: 220px;
+    color: crimson;
+}
+#content p
+{
+    font-size: 18px;
+}
+#content button
+{
+    height: 65px;
+    width: 210px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    margin: 20px 0;
+    font-size: 20px;
+    background-color: darkgray;
+    color: crimson;
+    cursor: pointer;
+}
+#content button:hover
+{
+    color: crimson;
+    border: 2px solid darkgray;
+    background: transparent;
+}
+/* animated music icons */
+#music
+{
+    background-color:  green;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    border: 2px solid green; 
+    /* linked animation */
+    animation: animate 6s ease-in-out infinite;
+}
+/*animatin for music icon*/
+@keyframes animate{
+      0%{
+          background-color: green;
+          color: white;
+          right: 20%;
+      }50%{
+          background-color: green;
+          color: white;
+          right: 25%;
+      }
+}
