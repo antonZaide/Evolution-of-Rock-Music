@@ -64,23 +64,22 @@
     border-bottom: 2px solid black;
     width: calc(100% - 150px);
 }
-/*circle css*/
-#circle
-{
-    height: 800px;
-    width: 800px;
-    border-radius: 50%;
-    background-color: darkgray;
-    position:absolute;
-    left: 2%;
-    bottom: 9%;
+header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
 }
-/*side image css*/
-#sideImage
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
+header .navbar a:hover{
+    color:var(--green);
+}
+#menu-bar{
+    font-style: 3rem;
+    cursor: pointer;
+    color: #666;
+    border: .1rem solid #666;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    display: none;
 }
 /* content css */
 #content 
@@ -92,34 +91,16 @@
     top: calc(50% - 215px);
 
 }
-#content h2
+#content h1
 {
-    font-size: 220px;
+    font-size: 20px;
     color: crimson;
 }
 #content p
 {
     font-size: 18px;
 }
-#content button
-{
-    height: 65px;
-    width: 210px;
-    border: none;
-    outline: none;
-    border-radius: 70px;
-    margin: 20px 0;
-    font-size: 20px;
-    background-color: darkgray;
-    color: crimson;
-    cursor: pointer;
-}
-#content button:hover
-{
-    color: crimson;
-    border: 2px solid darkgray;
-    background: transparent;
-}
+
 /* animated music icons */
 #music
 {
@@ -149,3 +130,6 @@
           right: 25%;
       }
 }
+
+
+
