@@ -1,77 +1,70 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --crimson:#990000 ;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
     box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
-#container
-{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: white;
+
+*::selection{
+    background: var(--crimson);
+    color:#fff;
+
 }
-/* logo css */  
-#logo
-{
-    position: absolute;
-    top: 50px;
-    left: 5%;
-    font-size: 34px;
-    color:crimson;
-    font-weight: bolder;
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
 }
-/* navbar css */
-#navbar
-{
-    height: 60px;
-    width: 925px;
-    position: absolute;
-    top: 50px;
-    right: 5%;
-    border-radius: 20px;
-    z-index: 999;
-    overflow: hidden;
+
+body{
+    background: #f7f7f7;
 }
-#navbar ul
-{
-    height: 100%;
-    width: 965px;
-    list-style: none;
+
+section{
+    padding: 2rem 9%
+    ;    
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0.5rem 0rem rgba(0, 0, 0, 1);
 }
-#navbar ul li a
-{
-     height: 100%;
-     width: auto;
-     margin: 0 70px;
-     font-size: 25px;
-     margin-left: 0;
-     display: grid;
-     place-items: center;
-     padding: 0 20px;
-     text-decoration: none;
-     color: black;
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #666;    
 }
-#navbar ul li a:hover
-{
-    color:crimson;
-    border-bottom: 2px solid black;
-    width: calc(100% - 150px);
+
+header .logo i{
+    padding-right: .5rem;
+    color: var(--crimson);
 }
+
 header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
     color: #666;
 }
-header .navbar a:hover{
-    color:var(--green);
-}
+
+
 #menu-bar{
     font-style: 3rem;
     cursor: pointer;
@@ -81,55 +74,27 @@ header .navbar a:hover{
     padding: .5rem 1.5rem;
     display: none;
 }
-/* content css */
-#content 
-{
-    height: auto;
-    width: 700px;
-    position: absolute;
-    right: 11%;
-    top: calc(50% - 215px);
+
+.home{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
 
 }
-#content h1
-{
-    font-size: 20px;
-    color: crimson;
+.home .content{
+    flex: 1 1 40rem;
+    padding: 6.5rem;
 }
-#content p
-{
-    font-size: 18px;
+.home .image{
+    flex: 1 2 40rem;
 }
-
-/* animated music icons */
-#music
-{
-    background-color:  green;
-    height: 90px;
-    width: 90px;
-    position: absolute;
-    bottom: 0px;
-    right: 20px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 30px;
-    border: 2px solid green; 
-    /* linked animation */
-    animation: animate 6s ease-in-out infinite;
+.home .image img{
+    width: 50%;
+    padding: 1rem;
 }
-/*animatin for music icon*/
-@keyframes animate{
-      0%{
-          background-color: green;
-          color: white;
-          right: 20%;
-      }50%{
-          background-color: green;
-          color: white;
-          right: 25%;
-      }
-}
-
-
 
