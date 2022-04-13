@@ -61,10 +61,10 @@ header .logo i{
 header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
-    color: var(--crimson);
+    color: #990000;
 }
 
-#menu-bar  {
+#menu-bar{
     font-style: 3rem;
     cursor: pointer;
     color: #666;
@@ -96,28 +96,28 @@ header .navbar a{
     flex: 1 2 40rem;
 }
 .home .image img{
-    width:115%;
+    width:100%;
     padding: 1rem;
 }
 .home .image2 img{
-    width: 100%;
+    width: 90%;
     padding: 1rem;
 }
 
+
+  
 h2{
-font-size: xx-large;
-text-align: top;
-}
-h3{
     font-size:xx-large;
     color: #990000; 
 }
-h4{
-    text-align: right;
+h3{
     font-size: xx-large;
-}
+    padding-left: 5rem;
+    color: cadetblue;
+    }
 p{
     font-size: large;
+    padding-left: 5rem;
 }
 .Page2{
 
@@ -186,4 +186,47 @@ p{
 .Page4 .image img{
     width: 50%;
     padding: 1rem;
+}
+
+@media(max-width:991px){
+   
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+}
+@media(max-width:786px){
+    #menu-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #f7f7f7;
+        border-top: .1rem solid rgba(0, 0, 0, 1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: .1rem solid rgba(0, 0, 0, 1);
+        border-left: .5rem solid var(--green);
+        background: #fff;
+    }
+}
+
+
+@media(max-width:400px){
+   
+    html{
+        font-size: 50%;
+    }
+ 
 }
