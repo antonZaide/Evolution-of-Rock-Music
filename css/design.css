@@ -92,14 +92,98 @@ header .navbar a{
 .home .image{
     flex: 1 2 40rem;
 }
+.home .image2{
+    flex: 1 2 40rem;
+}
 .home .image img{
-    width: 50%;
+    width:115%;
     padding: 1rem;
 }
+.home .image2 img{
+    width: 100%;
+    padding: 1rem;
+}
+
+h2{
+font-size: xx-large;
+text-align: top;
+}
 h3{
-    font-size:large;
+    font-size:xx-large;
     color: #990000; 
+}
+h4{
+    text-align: right;
+    font-size: xx-large;
 }
 p{
     font-size: large;
+}
+.Page2{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
+
+}
+.Page2 .content{
+    flex: 1 1 40rem;
+    padding: 6.5rem;
+}
+.Page2 .image{
+    flex: 1 2 40rem;
+}
+.Page2 .image img{
+    width: 50%;
+    padding: 1rem;
+}
+
+.Page3{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
+
+}
+.Page3 .content{
+    flex: 1 1 40rem;
+    padding: 6.5rem;
+}
+.Page3 .image{
+    flex: 1 2 40rem;
+}
+.Page3 .image img{
+    width: 50%;
+    padding: 1rem;
+}
+
+.Page4{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
+
+}
+.Page4 .content{
+    flex: 1 1 40rem;
+    padding: 6.5rem;
+}
+.Page4 .image{
+    flex: 1 2 40rem;
+}
+.Page4 .image img{
+    width: 50%;
+    padding: 1rem;
 }
