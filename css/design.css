@@ -111,6 +111,7 @@ header .navbar a{
 }
 
 
+
 h2{
     font-size:xx-large;
     color: #990000; 
@@ -161,10 +162,22 @@ p{
     flex: 1 2 40rem;
 }
 .Page2 .image img{
-    width: 50%;
+    width: 115%;
     padding: 1rem;
 }
-
+.Page2 .heading{
+    flex: 1 2 15rem;
+}
+.Page2 .heading h4{
+    padding: 1rem;
+}
+.Page2 .video1960s{
+    flex: 1 2 50rem;
+}
+.Page2 .video1960s iframe{
+    width: 100%;
+    padding-left: 7rem;
+}
 .Page3{
 
     display: flex;
@@ -184,10 +197,22 @@ p{
     flex: 1 2 40rem;
 }
 .Page3 .image img{
-    width: 50%;
+    width: 115%;
     padding: 1rem;
 }
-
+.Page3 .heading2{
+    flex: 1 2 25rem;
+}
+.Page3 .heading2 h5{
+    padding: 1rem;
+}
+.Page3 .video1990s{
+    flex: 1 2 50rem;
+}
+.Page3 .video1990s iframe{
+    width: 100%;
+    padding-left: 7rem;
+}
 .Page4{
 
     display: flex;
@@ -204,11 +229,24 @@ p{
     padding: 6.5rem;
 }
 .Page4 .image{
-    flex: 1 2 40rem;
+    flex: 1 2 50rem;
 }
 .Page4 .image img{
-    width: 50%;
+    width: 115%;
     padding: 1rem;
+}
+.Page4 .heading3{
+    flex: 1 2 15rem;
+}
+.Page4 .heading3 h6{
+    padding: 1rem;
+}
+.Page4 .video2000s{
+    flex: 1 2 50rem;
+}
+.Page4 .video2000s iframe{
+    width: 100%;
+    padding-left: 7rem;
 }
 
 @media(max-width:991px){
