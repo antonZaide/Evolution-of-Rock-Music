@@ -229,20 +229,20 @@ p{
     padding: 6.5rem;
 }
 .Page4 .image{
-    flex: 1 2 50rem;
+    flex: 1 2 40rem;
 }
 .Page4 .image img{
-    width: 115%;
+    width: 117%;
     padding: 1rem;
 }
 .Page4 .heading3{
-    flex: 1 2 15rem;
+    flex: 1 2 25rem;
 }
 .Page4 .heading3 h6{
     padding: 1rem;
 }
 .Page4 .video2000s{
-    flex: 1 2 50rem;
+    flex: 1 2 60rem;
 }
 .Page4 .video2000s iframe{
     width: 100%;
