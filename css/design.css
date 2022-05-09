@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-
+/*This link gives different fonts for css*/
 :root{
     --crimson:#990000 ;
 }
@@ -28,9 +28,9 @@ html{
 body{
     background: #f7f7f7;
 }
-
+/*Adjusts the size of the website*/
 section{
-    padding: 2rem 9%
+    padding: 2rem 25%
     ;    
 }
 
@@ -92,22 +92,22 @@ header .navbar a{
     flex: 1 2 50rem;
 }
 .home .image2{
-    flex: 1 2 29rem;
+    flex: 1 2 25rem;
 }
 .home .video{
     flex: 1 2 40rem;
 }
 .home .image img{
-    width:115%;
+    width:120%;
     padding: 1rem;
 }
 .home .image2 img{
-    width: 100%;
+    width: 140%;
     padding: 1rem;
 }
 .home .video iframe{
     width: 100%;
-    padding-left: 7rem;
+    padding: 1rem;
 }
 
 
@@ -159,14 +159,14 @@ p{
     padding: 6.5rem;
 }
 .Page2 .image{
-    flex: 1 2 40rem;
+    flex: 1 2 50rem;
 }
 .Page2 .image img{
     width: 115%;
     padding: 1rem;
 }
 .Page2 .heading{
-    flex: 1 2 15rem;
+    flex: 1 2 20rem;
 }
 .Page2 .heading h4{
     padding: 1rem;
@@ -242,7 +242,7 @@ p{
     padding: 1rem;
 }
 .Page4 .video2000s{
-    flex: 1 2 60rem;
+    flex: 1 2 50rem;
 }
 .Page4 .video2000s iframe{
     width: 100%;
